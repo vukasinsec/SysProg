@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj": {}
+    "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj": {
+    "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj",
         "projectName": "WebServer-DeezerAPI",
-        "projectPath": "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj",
+        "projectPath": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj",
         "packagesPath": "C:\\Users\\Windows10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\obj\\",
+        "outputPath": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Windows10\\AppData\\Roaming\\NuGet\\NuGet.Config",
