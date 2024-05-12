@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{425BF308-FF24-40D9-8422-FD9FC9048432}|WebServer-DeezerAPI.csproj|c:\\users\\windows10\\desktop\\github\\sistemsko-programiranje - onako kako bi trebalo sa besk petljom\\webserver-deezerapi\\services\\webserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{425BF308-FF24-40D9-8422-FD9FC9048432}|WebServer-DeezerAPI.csproj|c:\\users\\windows10\\desktop\\github\\sysprog\\webserver-deezerapi\\services\\webserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{425BF308-FF24-40D9-8422-FD9FC9048432}|WebServer-DeezerAPI.csproj|solutionrelative:services\\webserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{425BF308-FF24-40D9-8422-FD9FC9048432}|WebServer-DeezerAPI.csproj|C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{425BF308-FF24-40D9-8422-FD9FC9048432}|WebServer-DeezerAPI.csproj|C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{425BF308-FF24-40D9-8422-FD9FC9048432}|WebServer-DeezerAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{425BF308-FF24-40D9-8422-FD9FC9048432}|WebServer-DeezerAPI.csproj|C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\services\\jsonparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{425BF308-FF24-40D9-8422-FD9FC9048432}|WebServer-DeezerAPI.csproj|C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\services\\jsonparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{425BF308-FF24-40D9-8422-FD9FC9048432}|WebServer-DeezerAPI.csproj|solutionrelative:services\\jsonparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{425BF308-FF24-40D9-8422-FD9FC9048432}|WebServer-DeezerAPI.csproj|C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{425BF308-FF24-40D9-8422-FD9FC9048432}|WebServer-DeezerAPI.csproj|C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{425BF308-FF24-40D9-8422-FD9FC9048432}|WebServer-DeezerAPI.csproj|solutionrelative:services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "CacheService.cs",
-              "DocumentMoniker": "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\Services\\CacheService.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\Services\\CacheService.cs",
               "RelativeDocumentMoniker": "Services\\CacheService.cs",
-              "ToolTip": "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\Services\\CacheService.cs",
+              "ToolTip": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\Services\\CacheService.cs",
               "RelativeToolTip": "Services\\CacheService.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAQwBsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -52,9 +52,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "JSONParser.cs",
-              "DocumentMoniker": "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\Services\\JSONParser.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\Services\\JSONParser.cs",
               "RelativeDocumentMoniker": "Services\\JSONParser.cs",
-              "ToolTip": "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\Services\\JSONParser.cs",
+              "ToolTip": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\Services\\JSONParser.cs",
               "RelativeToolTip": "Services\\JSONParser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,11 +64,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "WebServer.cs",
-              "DocumentMoniker": "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\Services\\WebServer.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\Services\\WebServer.cs",
               "RelativeDocumentMoniker": "Services\\WebServer.cs",
-              "ToolTip": "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\Services\\WebServer.cs",
+              "ToolTip": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\Services\\WebServer.cs",
               "RelativeToolTip": "Services\\WebServer.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCkAAAA3AAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwIQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T12:25:09.592Z",
               "EditorCaption": ""
@@ -77,13 +77,14 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Windows10\\Desktop\\GitHub\\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\\WebServer-DeezerAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T12:25:08.921Z"
+              "WhenOpened": "2024-05-09T12:25:08.921Z",
+              "EditorCaption": ""
             }
           ]
         }

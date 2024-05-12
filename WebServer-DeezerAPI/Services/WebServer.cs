@@ -10,6 +10,7 @@ namespace WebServer_DeezerAPI.Services
     public class WebServer
     {
         private readonly HttpListener _listener;
+        private readonly Thread _listenerThread;
         private readonly JSONParser _jsonParser;
         private readonly LRUCache<string, string> _cache;
 
@@ -22,6 +23,8 @@ namespace WebServer_DeezerAPI.Services
             _listener.Prefixes.Add(Url);
             _jsonParser = new JSONParser();
             _cache = new LRUCache<string, string>(cacheCapacity);
+            _listenerThread = new Thread(Listen);
+            _listenerThread.Start();
         }
 
         public void Start()
@@ -34,6 +37,22 @@ namespace WebServer_DeezerAPI.Services
                 ThreadPool.QueueUserWorkItem(ProcessRequest, _listener.GetContext());
             }
         }
+
+        private void Listen()
+        {
+            try
+            {
+                while (_listener.IsListening)
+                {
+                    ThreadPool.QueueUserWorkItem(ProcessRequest, _listener.GetContext());
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Greška u osluškivanju: {ex.Message}");
+            }
+        }
+
 
         public void Stop()
         {
