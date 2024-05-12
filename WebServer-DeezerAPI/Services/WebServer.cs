@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Net.Http;
@@ -13,6 +14,8 @@ namespace WebServer_DeezerAPI.Services
         private readonly Thread _listenerThread;
         private readonly JSONParser _jsonParser;
         private readonly LRUCache<string, string> _cache;
+        private readonly ReaderWriterLockSlim _cacheLock;
+        private readonly ReaderWriterLockSlim _fileLock;
 
         public string Url { get; }
 
@@ -23,6 +26,8 @@ namespace WebServer_DeezerAPI.Services
             _listener.Prefixes.Add(Url);
             _jsonParser = new JSONParser();
             _cache = new LRUCache<string, string>(cacheCapacity);
+            _cacheLock = new ReaderWriterLockSlim();
+            _fileLock = new ReaderWriterLockSlim();
             _listenerThread = new Thread(Listen);
             _listenerThread.Start();
         }
@@ -53,7 +58,6 @@ namespace WebServer_DeezerAPI.Services
             }
         }
 
-
         public void Stop()
         {
             _listener.Stop();
@@ -74,19 +78,40 @@ namespace WebServer_DeezerAPI.Services
                 string apiUrl = $"https://api.deezer.com/search?q={query}";
 
                 string responseData;
-                if (_cache.TryGetValue(apiUrl, out responseData))
+                _cacheLock.EnterReadLock();
+                try
                 {
-                    Console.WriteLine("[!] Podaci su pribavljeni iz keša!");
+                    if (_cache.TryGetValue(apiUrl, out responseData))
+                    {
+                        Console.WriteLine("[!] Podaci su pribavljeni iz keša!");
+                    }
+                    else
+                    {
+                        _cacheLock.ExitReadLock(); // Release the read lock before attempting a write lock
+                        responseData = GetDataFromApi(apiUrl);
+                        _cacheLock.EnterWriteLock();
+                        try
+                        {
+                            _cache.AddOrUpdate(apiUrl, responseData);
+                        }
+                        finally
+                        {
+                            _cacheLock.ExitWriteLock();
+                        }
+                        Console.WriteLine("[!] Podaci su pribavljeni iz API-ja!");
+                    }
                 }
-                else
+                finally
                 {
-                    responseData = GetDataFromApi(apiUrl);
-                    _cache.AddOrUpdate(apiUrl, responseData);
-                    Console.WriteLine("[!] Podaci su pribavljeni iz API-ja!");
+                    if (_cacheLock.IsReadLockHeld)
+                        _cacheLock.ExitReadLock();
                 }
+
 
                 JObject jsonData = JObject.Parse(responseData);
                 List<string> titles = _jsonParser.ExtractTitles(jsonData);
+
+                WriteDataToFile(titles);
 
                 response.StatusCode = (int)HttpStatusCode.OK;
                 response.ContentType = "application/json";
@@ -99,12 +124,36 @@ namespace WebServer_DeezerAPI.Services
                     }
                 }
             }
+            catch (TimeoutException ex)
+            {
+                response.StatusCode = (int)HttpStatusCode.RequestTimeout;
+                using (StreamWriter writer = new StreamWriter(response.OutputStream))
+                {
+                    writer.Write($"Timeout exception occurred: {ex.Message}");
+                }
+            }
+            catch (HttpRequestException ex)
+            {
+                response.StatusCode = (int)HttpStatusCode.InternalServerError;
+                using (StreamWriter writer = new StreamWriter(response.OutputStream))
+                {
+                    writer.Write($"HTTP request exception occurred: {ex.Message}");
+                }
+            }
+            catch (ArgumentException ex)
+            {
+                response.StatusCode = (int)HttpStatusCode.BadRequest;
+                using (StreamWriter writer = new StreamWriter(response.OutputStream))
+                {
+                    writer.Write($"Invalid request: {ex.Message}");
+                }
+            }
             catch (Exception ex)
             {
                 response.StatusCode = (int)HttpStatusCode.InternalServerError;
                 using (StreamWriter writer = new StreamWriter(response.OutputStream))
                 {
-                    writer.Write($"Došlo je do greške: {ex.Message}");
+                    writer.Write($"An error occurred: {ex.Message}");
                 }
             }
             finally
@@ -112,6 +161,7 @@ namespace WebServer_DeezerAPI.Services
                 response.Close();
             }
         }
+
 
         private string GetDataFromApi(string apiUrl)
         {
@@ -128,5 +178,33 @@ namespace WebServer_DeezerAPI.Services
                 }
             }
         }
+
+        private void WriteDataToFile(List<string> titles)
+        {
+            _fileLock.EnterWriteLock();
+            try
+            {
+                string filePath = @"C:\Users\Windows10\Desktop\GitHub\SysProg\izlaz.txt";
+                using (StreamWriter writer = new StreamWriter(filePath, true))
+                {
+                    writer.WriteLine($"Retrieved at: {DateTime.Now}");
+                    foreach (var title in titles)
+                    {
+                        writer.WriteLine(title);
+                    }
+                    writer.WriteLine("=======================================");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred while writing to the file: {ex.Message}");
+            }
+            finally
+            {
+                _fileLock.ExitWriteLock();
+            }
+        }
+
+
     }
 }
