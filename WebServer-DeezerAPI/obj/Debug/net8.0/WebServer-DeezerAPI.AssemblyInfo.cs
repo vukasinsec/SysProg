@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebServer-DeezerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fec6fe4c6e7134ee8f10587021cd7d667dfa86d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57816660b396041825f8230330b66a2ffb93679f")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebServer-DeezerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebServer-DeezerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

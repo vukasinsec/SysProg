@@ -11,7 +11,6 @@ namespace WebServer_DeezerAPI.Services
     public class WebServer
     {
         private readonly HttpListener _listener;
-        private readonly Thread _listenerThread;
         private readonly JSONParser _jsonParser;
         private readonly LRUCache<string, string> _cache;
         private readonly ReaderWriterLockSlim _cacheLock;
@@ -28,8 +27,6 @@ namespace WebServer_DeezerAPI.Services
             _cache = new LRUCache<string, string>(cacheCapacity);
             _cacheLock = new ReaderWriterLockSlim();
             _fileLock = new ReaderWriterLockSlim();
-            _listenerThread = new Thread(Listen);
-            _listenerThread.Start();
         }
 
         public void Start()
