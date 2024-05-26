@@ -5,6 +5,7 @@ using System.IO;
 using System.Net;
 using System.Net.Http;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace WebServer_DeezerAPI.Services
 {
@@ -36,7 +37,7 @@ namespace WebServer_DeezerAPI.Services
 
             while (true)
             {
-                ThreadPool.QueueUserWorkItem(ProcessRequest, _listener.GetContext());
+                ThreadPool.QueueUserWorkItem(async (state) => await ProcessRequest((HttpListenerContext)state), _listener.GetContext());
             }
         }
 
@@ -46,7 +47,7 @@ namespace WebServer_DeezerAPI.Services
             {
                 while (_listener.IsListening)
                 {
-                    ThreadPool.QueueUserWorkItem(ProcessRequest, _listener.GetContext());
+                    ThreadPool.QueueUserWorkItem(async (state) => await ProcessRequest((HttpListenerContext)state), _listener.GetContext());
                 }
             }
             catch (Exception ex)
@@ -62,10 +63,8 @@ namespace WebServer_DeezerAPI.Services
             Console.WriteLine("Server je zaustavljen");
         }
 
-        private void ProcessRequest(object state)
+        private async Task ProcessRequest(HttpListenerContext context)
         {
-            HttpListenerContext context = (HttpListenerContext)state;
-
             HttpListenerRequest request = context.Request;
             HttpListenerResponse response = context.Response;
 
@@ -85,7 +84,7 @@ namespace WebServer_DeezerAPI.Services
                     else
                     {
                         _cacheLock.ExitReadLock(); // Release the read lock before attempting a write lock
-                        responseData = GetDataFromApi(apiUrl);
+                        responseData = await GetDataFromApi(apiUrl);
                         _cacheLock.EnterWriteLock();
                         try
                         {
@@ -104,11 +103,10 @@ namespace WebServer_DeezerAPI.Services
                         _cacheLock.ExitReadLock();
                 }
 
-
                 JObject jsonData = JObject.Parse(responseData);
                 List<string> titles = _jsonParser.ExtractTitles(jsonData);
 
-                WriteDataToFile(titles);
+                await WriteDataToFile(titles);
 
                 response.StatusCode = (int)HttpStatusCode.OK;
                 response.ContentType = "application/json";
@@ -117,7 +115,7 @@ namespace WebServer_DeezerAPI.Services
                 {
                     foreach (var title in titles)
                     {
-                        writer.WriteLine(title);
+                        await writer.WriteLineAsync(title);
                     }
                 }
             }
@@ -126,7 +124,7 @@ namespace WebServer_DeezerAPI.Services
                 response.StatusCode = (int)HttpStatusCode.RequestTimeout;
                 using (StreamWriter writer = new StreamWriter(response.OutputStream))
                 {
-                    writer.Write($"Timeout exception occurred: {ex.Message}");
+                    await writer.WriteAsync($"Timeout exception occurred: {ex.Message}");
                 }
             }
             catch (HttpRequestException ex)
@@ -134,7 +132,7 @@ namespace WebServer_DeezerAPI.Services
                 response.StatusCode = (int)HttpStatusCode.InternalServerError;
                 using (StreamWriter writer = new StreamWriter(response.OutputStream))
                 {
-                    writer.Write($"HTTP request exception occurred: {ex.Message}");
+                    await writer.WriteAsync($"HTTP request exception occurred: {ex.Message}");
                 }
             }
             catch (ArgumentException ex)
@@ -142,7 +140,7 @@ namespace WebServer_DeezerAPI.Services
                 response.StatusCode = (int)HttpStatusCode.BadRequest;
                 using (StreamWriter writer = new StreamWriter(response.OutputStream))
                 {
-                    writer.Write($"Invalid request: {ex.Message}");
+                    await writer.WriteAsync($"Invalid request: {ex.Message}");
                 }
             }
             catch (Exception ex)
@@ -150,7 +148,7 @@ namespace WebServer_DeezerAPI.Services
                 response.StatusCode = (int)HttpStatusCode.InternalServerError;
                 using (StreamWriter writer = new StreamWriter(response.OutputStream))
                 {
-                    writer.Write($"An error occurred: {ex.Message}");
+                    await writer.WriteAsync($"An error occurred: {ex.Message}");
                 }
             }
             finally
@@ -159,15 +157,14 @@ namespace WebServer_DeezerAPI.Services
             }
         }
 
-
-        private string GetDataFromApi(string apiUrl)
+        private async Task<string> GetDataFromApi(string apiUrl)
         {
             using (HttpClient client = new HttpClient())
             {
-                HttpResponseMessage response = client.GetAsync(apiUrl).Result;
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
                 if (response.IsSuccessStatusCode)
                 {
-                    return response.Content.ReadAsStringAsync().Result;
+                    return await response.Content.ReadAsStringAsync();
                 }
                 else
                 {
@@ -176,7 +173,7 @@ namespace WebServer_DeezerAPI.Services
             }
         }
 
-        private void WriteDataToFile(List<string> titles)
+        private async Task WriteDataToFile(List<string> titles)
         {
             _fileLock.EnterWriteLock();
             try
@@ -184,12 +181,12 @@ namespace WebServer_DeezerAPI.Services
                 string filePath = @"C:\Users\Windows10\Desktop\GitHub\SysProg\izlaz.txt";
                 using (StreamWriter writer = new StreamWriter(filePath, true))
                 {
-                    writer.WriteLine($"Retrieved at: {DateTime.Now}");
+                    await writer.WriteLineAsync($"Retrieved at: {DateTime.Now}");
                     foreach (var title in titles)
                     {
-                        writer.WriteLine(title);
+                        await writer.WriteLineAsync(title);
                     }
-                    writer.WriteLine("=======================================");
+                    await writer.WriteLineAsync("=======================================");
                 }
             }
             catch (Exception ex)
@@ -201,7 +198,5 @@ namespace WebServer_DeezerAPI.Services
                 _fileLock.ExitWriteLock();
             }
         }
-
-
     }
 }
