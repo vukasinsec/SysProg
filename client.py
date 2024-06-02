@@ -49,7 +49,7 @@ if __name__ == "__main__":
             exit()
         queries.append(album_name)
 
-    num_clients = 5  # Broj klijenata za pokretanje
+    num_clients = 50
     print(f"Prvi zahtevi, očekuju se podaci iz API-ja za {num_clients} klijenata:")
     create_clients([option] * len(queries), queries, num_clients)
     time.sleep(2)

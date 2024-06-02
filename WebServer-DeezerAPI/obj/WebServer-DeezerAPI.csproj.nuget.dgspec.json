@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj": {}
+    "/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/WebServer-DeezerAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj": {
+    "/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/WebServer-DeezerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj",
+        "projectUniqueName": "/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/WebServer-DeezerAPI.csproj",
         "projectName": "WebServer-DeezerAPI",
-        "projectPath": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj",
-        "packagesPath": "C:\\Users\\Windows10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\obj\\",
+        "projectPath": "/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/WebServer-DeezerAPI.csproj",
+        "packagesPath": "/Users/vule/.nuget/packages/",
+        "outputPath": "/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Windows10\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/vule/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

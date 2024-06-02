@@ -34,26 +34,7 @@ namespace WebServer_DeezerAPI.Services
         {
             _listener.Start();
             Console.WriteLine($"Server je pokrenut na {Url}");
-
-            while (true)
-            {
-                ThreadPool.QueueUserWorkItem(async (state) => await ProcessRequest((HttpListenerContext)state), _listener.GetContext());
-            }
-        }
-
-        private void Listen()
-        {
-            try
-            {
-                while (_listener.IsListening)
-                {
-                    ThreadPool.QueueUserWorkItem(async (state) => await ProcessRequest((HttpListenerContext)state), _listener.GetContext());
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Greška u osluškivanju: {ex.Message}");
-            }
+            _ = ListenAsync(); 
         }
 
         public void Stop()
@@ -63,7 +44,23 @@ namespace WebServer_DeezerAPI.Services
             Console.WriteLine("Server je zaustavljen");
         }
 
-        private async Task ProcessRequest(HttpListenerContext context)
+        private async Task ListenAsync()
+        {
+            try
+            {
+                while (_listener.IsListening)
+                {
+                    var context = await _listener.GetContextAsync();
+                    _ = ProcessRequestAsync(context); 
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Greška u osluškivanju: {ex.Message}");
+            }
+        }
+
+        private async Task ProcessRequestAsync(HttpListenerContext context)
         {
             HttpListenerRequest request = context.Request;
             HttpListenerResponse response = context.Response;
@@ -83,8 +80,8 @@ namespace WebServer_DeezerAPI.Services
                     }
                     else
                     {
-                        _cacheLock.ExitReadLock(); // Release the read lock before attempting a write lock
-                        responseData = await GetDataFromApi(apiUrl);
+                        _cacheLock.ExitReadLock(); 
+                        responseData = await GetDataFromApiAsync(apiUrl);
                         _cacheLock.EnterWriteLock();
                         try
                         {
@@ -106,7 +103,7 @@ namespace WebServer_DeezerAPI.Services
                 JObject jsonData = JObject.Parse(responseData);
                 List<string> titles = _jsonParser.ExtractTitles(jsonData);
 
-                await WriteDataToFile(titles);
+                await WriteDataToFileAsync(titles);
 
                 response.StatusCode = (int)HttpStatusCode.OK;
                 response.ContentType = "application/json";
@@ -157,7 +154,7 @@ namespace WebServer_DeezerAPI.Services
             }
         }
 
-        private async Task<string> GetDataFromApi(string apiUrl)
+        private async Task<string> GetDataFromApiAsync(string apiUrl)
         {
             using (HttpClient client = new HttpClient())
             {
@@ -173,7 +170,7 @@ namespace WebServer_DeezerAPI.Services
             }
         }
 
-        private async Task WriteDataToFile(List<string> titles)
+        private async Task WriteDataToFileAsync(List<string> titles)
         {
             _fileLock.EnterWriteLock();
             try

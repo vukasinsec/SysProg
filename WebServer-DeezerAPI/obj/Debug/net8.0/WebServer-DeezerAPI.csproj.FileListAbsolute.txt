@@ -1,71 +1,89 @@
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.exe
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.deps.json
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.runtimeconfig.json
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.pdb
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.csproj.AssemblyReference.cache
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.AssemblyInfoInputs.cache
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.AssemblyInfo.cs
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.csproj.CoreCompileInputs.cache
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServe.2AA07C7D.Up2Date
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\refint\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.pdb
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.genruntimeconfig.cache
-C:\Users\Windows10\Desktop\FAKS\Sistemsko Programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\ref\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.csproj.AssemblyReference.cache
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.AssemblyInfoInputs.cache
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.AssemblyInfo.cs
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.csproj.CoreCompileInputs.cache
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.sourcelink.json
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\refint\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.pdb
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.exe
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.deps.json
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.runtimeconfig.json
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.pdb
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServe.2AA07C7D.Up2Date
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.genruntimeconfig.cache
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje\WebServer-DeezerAPI\obj\Debug\net8.0\ref\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.exe
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.deps.json
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.runtimeconfig.json
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.pdb
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.csproj.AssemblyReference.cache
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.AssemblyInfoInputs.cache
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.AssemblyInfo.cs
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.csproj.CoreCompileInputs.cache
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.sourcelink.json
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\obj\Debug\net8.0\WebServe.2AA07C7D.Up2Date
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\obj\Debug\net8.0\refint\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.pdb
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.genruntimeconfig.cache
-C:\Users\Windows10\Desktop\GitHub\sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM\WebServer-DeezerAPI\obj\Debug\net8.0\ref\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.exe
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.deps.json
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.runtimeconfig.json
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\bin\Debug\net8.0\WebServer-DeezerAPI.pdb
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.csproj.AssemblyReference.cache
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.AssemblyInfoInputs.cache
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.AssemblyInfo.cs
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.csproj.CoreCompileInputs.cache
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.sourcelink.json
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\obj\Debug\net8.0\WebServe.2AA07C7D.Up2Date
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\obj\Debug\net8.0\refint\WebServer-DeezerAPI.dll
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.pdb
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\obj\Debug\net8.0\WebServer-DeezerAPI.genruntimeconfig.cache
-C:\Users\Windows10\Desktop\GitHub\SysProg\WebServer-DeezerAPI\obj\Debug\net8.0\ref\WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.exe
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.deps.json
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.runtimeconfig.json
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.pdb
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/bin/Debug/net8.0/Newtonsoft.Json.dll
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.csproj.AssemblyReference.cache
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.AssemblyInfoInputs.cache
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.AssemblyInfo.cs
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.csproj.CoreCompileInputs.cache
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServe.2AA07C7D.Up2Date
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/refint/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.pdb
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.genruntimeconfig.cache
+C:/Users/Windows10/Desktop/FAKS/Sistemsko Programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/ref/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.csproj.AssemblyReference.cache
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.AssemblyInfoInputs.cache
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.AssemblyInfo.cs
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.csproj.CoreCompileInputs.cache
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.sourcelink.json
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/refint/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.pdb
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.exe
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.deps.json
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.runtimeconfig.json
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.pdb
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/bin/Debug/net8.0/Newtonsoft.Json.dll
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServe.2AA07C7D.Up2Date
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.genruntimeconfig.cache
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje/WebServer-DeezerAPI/obj/Debug/net8.0/ref/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.exe
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.deps.json
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.runtimeconfig.json
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.pdb
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/bin/Debug/net8.0/Newtonsoft.Json.dll
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.csproj.AssemblyReference.cache
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.AssemblyInfoInputs.cache
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.AssemblyInfo.cs
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.csproj.CoreCompileInputs.cache
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.sourcelink.json
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/obj/Debug/net8.0/WebServe.2AA07C7D.Up2Date
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/obj/Debug/net8.0/refint/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.pdb
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.genruntimeconfig.cache
+C:/Users/Windows10/Desktop/GitHub/sistemsko-programiranje - ONAKO KAKO BI TREBALO SA BESK PETLJOM/WebServer-DeezerAPI/obj/Debug/net8.0/ref/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.exe
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.deps.json
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.runtimeconfig.json
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.pdb
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/bin/Debug/net8.0/Newtonsoft.Json.dll
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.csproj.AssemblyReference.cache
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.AssemblyInfoInputs.cache
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.AssemblyInfo.cs
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.csproj.CoreCompileInputs.cache
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.sourcelink.json
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServe.2AA07C7D.Up2Date
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/refint/WebServer-DeezerAPI.dll
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.pdb
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.genruntimeconfig.cache
+C:/Users/Windows10/Desktop/GitHub/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/ref/WebServer-DeezerAPI.dll
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.deps.json
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.runtimeconfig.json
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.dll
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/bin/Debug/net8.0/WebServer-DeezerAPI.pdb
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.csproj.AssemblyReference.cache
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.AssemblyInfoInputs.cache
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.AssemblyInfo.cs
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.csproj.CoreCompileInputs.cache
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.sourcelink.json
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.csproj.CopyComplete
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.dll
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/refint/WebServer-DeezerAPI.dll
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.pdb
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/WebServer-DeezerAPI.genruntimeconfig.cache
+/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/obj/Debug/net8.0/ref/WebServer-DeezerAPI.dll

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Uu2LwdCX/qKn8oES/eEk+aJeEXuKbWXWM4jVoEljTwR0CbiksiL4Gu1oCJn/5LlmYmiHkxOQzIZgEPuCTX4+EQ==",
+  "dgSpecHash": "JL9TbvaCauKA0ScS0tt0cEw7SS/mDutV7OALLwzjuhCFPpzuccN76+7d0NREi7NzMEVsOlGZ5BpvRxWrT2UQ7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Windows10\\Desktop\\GitHub\\SysProg\\WebServer-DeezerAPI\\WebServer-DeezerAPI.csproj",
+  "projectFilePath": "/Users/vule/Desktop/SysProg/WebServer-DeezerAPI/WebServer-DeezerAPI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Windows10\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "/Users/vule/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
